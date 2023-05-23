@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Badge-Mart</title>
+    <!-- Font awosome  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+    <link rel="stylesheet" media="screen and (max-width:1000px)" href="phone.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <a href="#" class="logo"><i class="fas fa-shopping-basket"></i>Badget-Mart</a>
+        <nav class="navbar">
+            <a href="index.html">Home</a>
+            <a href="feature.html">Features</a>
+            <a href="products.html">Products</a>
+            <a href="Categories.html">Categories</a>
+            <a href="reviews.html">Reviews</a>
+            <a href="blogs.html">Blogs</a>
+            <a href="contact.html">contact</a>
+            
+        </nav>
+        <div class="icons">
+            <div class="fas fa-bars"    id="menu-btn"></div>
+            <div class="fas fa-search" id="search-btn"></div>
+            <div class="fas fa-shopping-cart" id="cart-btn"></div>
+            <div class="fas fa-user" id="login-btn"></div>
+        </div>
+
+
+        <form action="" class="search-form">
+            <input type="search" id="search-box" class="box" placeholder="Search Here...">
+            <label for="search-box" class="fas fa-search"></label>
+        </form>
+        <div class="shopping-cart">
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img src="image/cart-img-1.png" alt="something went wrong">
+                <div class="content">
+                    <h3>WaterMelon</h3>
+                    <span class="price">$4.99/-</span>
+                    <span class="quantity">qty : 1</span>
+                </div>
+            </div>
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img src="image/cart-img-2.png" alt="something went wrong">
+                <div class="content">
+                    <h3>Onion</h3>
+                    <span class="price">$4.99/-</span>
+                    <span class="quantity">qty : 1</span>
+                </div>
+            </div>
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img src="image/cart-img-3.png" alt="something went wrong">
+                <div class="content">
+                    <h3>Chicken</h3>
+                    <span class="price">$4.99/-</span>
+                    <span class="quantity">qty : 1</span>
+                </div>
+            </div>
+            <div class="total">Total:19.69/-</div>
+            <a href="#" class="btn">Checkout</a>
+        </div>
+        <form action="" class="login-form">
+            <h3>Login now</h3>
+            <input type="email" placeholder="Enter Your Email" class="box">
+            <input type="password" placeholder="Enter Your Password" class="box">
+            <p>forget your password? <a href="#">Click Here</a></p>
+            <p>Don't have any Account? <a href="#">Register Now</a></p>
+            <input type="submit" value="login now" class="btn">
+        </form>
+    </header>
+
+
+    <section class="home" id="home">
+
+        <div class="content">
+            <h3>fresh and <span>organic</span> products for yours</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam libero nostrum veniam facere tempore nisi.</p>
+            <a href="#login-btn" class="btn">shop now</a>
+        </div>
+    
+    </section>
+
+
+    <!-- review section starts  -->
+
+<section class="review" id="review">
+
+    <h1 class="heading"> our customer's <span>reviews</span> </h1>
+
+    <div class="swiper review-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide box">
+                <img src="image/pic-1.png" alt="">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde sunt fugiat dolore ipsum id est maxime ad tempore quasi tenetur.</p>
+                <h3>Sami</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/pic-2.png" alt="">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde sunt fugiat dolore ipsum id est maxime ad tempore quasi tenetur.</p>
+                <h3>Sami</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/pic-3.png" alt="">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde sunt fugiat dolore ipsum id est maxime ad tempore quasi tenetur.</p>
+                <h3>Sami</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/pic-4.png" alt="">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde sunt fugiat dolore ipsum id est maxime ad tempore quasi tenetur.</p>
+                <h3>Shami</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- review section ends -->
+
+<!-- footer section starts  -->
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3> Badget-mart <i class="fas fa-shopping-basket"></i> </h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam, saepe.</p>
+            <div class="share">
+                <a href="https://www.facebook.com/M%20Sami%20Ullah/" target="_blank" class="fab fa-facebook-f"></a>
+                <a href="https://twitter.com" target="_blank" class="fab fa-twitter"></a>
+                <a href="https://www.instagram.com/msamigenius/" target="_blank" class="fab fa-instagram"></a>
+                <a href="https://www.linkedin.com/feed/" target="_blank" class="fab fa-linkedin"></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <h3>contact info</h3>
+            <a href="#" class="links"> <i class="fas fa-phone"></i> +92-301-968-2375 </a>
+            <a href="#" class="links"> <i class="fas fa-phone"></i> +111-222-3333 </a>
+            <a href="#" class="links"> <i class="fas fa-envelope"></i> msamimashfaqtahir@gmail.com </a>
+            <a href="#" class="links"> <i class="fas fa-map-marker-alt"></i> Okara,Punjab-Pakistan</a>
+        </div>
+
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="index.html" class="links"> <i class="fas fa-arrow-right"></i> home </a>
+            <a href="feature.html" class="links"> <i class="fas fa-arrow-right"></i> features </a>
+            <a href="products.html" class="links"> <i class="fas fa-arrow-right"></i> products </a>
+            <a href="Categories.html" class="links"> <i class="fas fa-arrow-right"></i> categories </a>
+            <a href="reviews.html" class="links"> <i class="fas fa-arrow-right"></i> reviews </a>
+            <a href="blogs.html" class="links"> <i class="fas fa-arrow-right"></i> blogs </a>
+            <a href="contact.html" class="links"> <i class="fas fa-arrow-right"></i> Contact </a>
+        </div>
+
+        <div class="box">
+            <h3>newsletter</h3>
+            <p>subscribe for latest updates</p>
+            <form action="form.php" method="post" class="form">
+                <input type="email" placeholder="Enter your email" class="email">
+                <input type="password" placeholder="Enter your password" class="password">
+                <input type="submit" value="subscribe" class="btn">
+            </form>
+            <img src="image/payment.png" class="payment-img" alt="">
+        </div>
+
+    </div>
+
+    <div class="credit"> created by <span> mr. Sami Genius </span> | all rights reserved </div>
+
+</section>
+
+<!-- footer section ends -->
+
+
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+ 
+
+    <script src="script.js"></script>
+    
+</body>
+</html>

@@ -1,0 +1,69 @@
+/* media queries  */
+
+
+
+    html{
+        font-size: 40%;
+    }
+
+    .header{
+        padding:1.8rem;
+    }
+
+    section{
+        padding:1.8rem;
+    }
+
+/* }
+
+@media (max-width:768px){ */
+
+    #menu-btn{
+        display: inline-block;
+    }
+
+    .header .search-form{
+        width:80%;
+    }
+
+    .header .navbar{
+        position: absolute;
+        top:110%; right:-110%;
+        width:25rem;
+        box-shadow: var(--box-shadow);
+        border-radius: .5rem;
+        background: #fff;
+    }
+
+    .header .navbar.active{
+        right:1.8rem;
+        transition: .4s linear;
+    }
+
+    .header .navbar a{
+        font-size: 2rem;
+        margin:2rem 2.5rem;
+        display: block;
+    }
+
+
+
+@media (max-width:500px){
+
+    html{
+        font-size: 30%;
+    }
+
+    .heading{
+        font-size: 1.8rem;
+    }
+
+    .footer{
+        text-align: center;
+    }
+
+    .footer .box-container .box .payment-img{
+        margin: 1.5rem auto;
+    }
+
+}
